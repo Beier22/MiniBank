@@ -9,6 +9,7 @@ namespace MiniBank.Core.Entity
         public int Id { get; set; }
         public DateTime DateTime { get; set; }
         public string Message { get; set; }
+        public double Amount { get; set; }
 
     }
 }
