@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\MiniBank.Core.Entity\MiniBank.Core.Entity.csproj" />
     <ProjectReference Include="..\MiniBank.Core\MiniBank.Core.csproj" />
   </ItemGroup>
 

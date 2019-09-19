@@ -5,16 +5,16 @@ using System.Text;
 
 namespace MiniBank.Infrastructure
 {
-    public class FakeDB
+    public static class FakeDB
     {
-        List<Customer> Customers = new List<Customer>();
-        List<BankAcc> BankAccs = new List<BankAcc>();
-        List<Transaction> Transactions = new List<Transaction>();
+        public static List<Customer> Customers = new List<Customer>();
+        public static List<BankAcc> BankAccs = new List<BankAcc>();
+        public static List<Transaction> Transactions = new List<Transaction>();
 
-        private int id = 1;
-        private int transId = 1;
+        private static int id = 1;
+        private static int transId = 1;
 
-        public void SampleCustomers()
+        public static void SampleCustomers()
         {
             Customer c1 = new Customer
             {
@@ -62,7 +62,7 @@ namespace MiniBank.Infrastructure
             };
         }
 
-        public void SampleBankAccs()
+        public static void SampleBankAccs()
         {
             BankAcc a1 = new BankAcc
             {
@@ -74,7 +74,7 @@ namespace MiniBank.Infrastructure
             };
         }
 
-        public void SampleTransactions()
+        public static void SampleTransactions()
         {
             Transaction t1 = new Transaction
             {

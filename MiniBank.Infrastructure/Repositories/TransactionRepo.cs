@@ -1,8 +1,8 @@
 ﻿using MiniBank.Core.DomainServices;
+using MiniBank.Core.Entity;
 using System;
 using System.Collections.Generic;
 using System.Text;
-using System.Transactions;
 
 namespace MiniBank.Infrastructure.Repositories
 {
@@ -10,7 +10,7 @@ namespace MiniBank.Infrastructure.Repositories
     {
         public Transaction CreateTransaction(Transaction toCreate)
         {
-            List<Transaction> transactionsList = FakeDB.Transactions.ToList();
+            List<Transaction> transactionsList = FakeDB.Transactions;
             transactionsList.Add(toCreate);
             FakeDB.Transactions = transactionsList;
             return toCreate;
