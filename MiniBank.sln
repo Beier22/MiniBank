@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.29215.179
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniBank.UI", "MiniBank.UI\MiniBank.UI.csproj", "{C5DF6D26-C6CF-41B2-9C48-1FB149AA4501}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniBank.Infrastructure", "MiniBank.Infrastructure\MiniBank.Infrastructure.csproj", "{5F0C95BD-C116-4CCE-8999-9F1F09AEAF8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniBank.Core", "MiniBank.Core\MiniBank.Core.csproj", "{EA8695D2-F528-48D0-9DA1-E81CFB3ECE67}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{C5DF6D26-C6CF-41B2-9C48-1FB149AA4501}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5DF6D26-C6CF-41B2-9C48-1FB149AA4501}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5DF6D26-C6CF-41B2-9C48-1FB149AA4501}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F0C95BD-C116-4CCE-8999-9F1F09AEAF8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F0C95BD-C116-4CCE-8999-9F1F09AEAF8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F0C95BD-C116-4CCE-8999-9F1F09AEAF8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F0C95BD-C116-4CCE-8999-9F1F09AEAF8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA8695D2-F528-48D0-9DA1-E81CFB3ECE67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA8695D2-F528-48D0-9DA1-E81CFB3ECE67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA8695D2-F528-48D0-9DA1-E81CFB3ECE67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA8695D2-F528-48D0-9DA1-E81CFB3ECE67}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
