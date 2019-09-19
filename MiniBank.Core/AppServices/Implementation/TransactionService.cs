@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Transactions;
 using MiniBank.Core.DomainServices;
+using MiniBank.Core.Entity;
 
 namespace MiniBank.Core.AppServices.Implementation
 {
