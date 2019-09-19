@@ -4,7 +4,11 @@ using System.Text;
 
 namespace MiniBank.Core.Entity
 {
-    class Transaction
+    public class Transaction
     {
+        public int Id { get; set; }
+        public DateTime DateTime { get; set; }
+        public string Message { get; set; }
+
     }
 }
