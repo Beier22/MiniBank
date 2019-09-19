@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniBank.Infrastructure", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniBank.Core", "MiniBank.Core\MiniBank.Core.csproj", "{EA8695D2-F528-48D0-9DA1-E81CFB3ECE67}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniBank.Core.Entity", "MiniBank.Core.Entity\MiniBank.Core.Entity.csproj", "{6D1C6A74-49CD-453F-BB15-7A228C857701}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{EA8695D2-F528-48D0-9DA1-E81CFB3ECE67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA8695D2-F528-48D0-9DA1-E81CFB3ECE67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA8695D2-F528-48D0-9DA1-E81CFB3ECE67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D1C6A74-49CD-453F-BB15-7A228C857701}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D1C6A74-49CD-453F-BB15-7A228C857701}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D1C6A74-49CD-453F-BB15-7A228C857701}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D1C6A74-49CD-453F-BB15-7A228C857701}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
